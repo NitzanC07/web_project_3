@@ -8,16 +8,9 @@
     color: #fff;    
 }
 
-@media screen and (max-width: 320px){
-    .logo{
-        width: 156px;
-        height: 36px;
-    }
+@media screen and (max-width: 540px){
     .header__list{
         font-size: 18px;
         line-height: 20px;
-    }
-    .page__container{
-        margin: 20px auto 0;
     }
 }

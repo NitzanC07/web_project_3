@@ -1,20 +1,17 @@
 .lead{
-    width: calc(100% - 148px * 2);
-    width: 984px;
-    min-height: 1005px;
+    width: calc(100% - 48px * 2);
+    max-width: 984px;
     margin: 100px auto 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1184px){
     .lead{
-        min-width: 928px;
-        margin: 100px auto 0;
+        width: calc(100% - 48px * 2);
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 860px){
     .lead{
-        min-width: 100%;
-        margin: 100px auto 0;
+        width: 100%;
     }
 }
