@@ -1,0 +1,15 @@
+.place{
+    width: calc(100% - 148px * 2);
+    width: 984px;
+    margin: 80px auto;
+    /* background-color: #000; */
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-gap: 48px 40px;
+}
+.place:first-of-type{
+    margin-top: 92px;
+}
+.place:last-of-type{
+    margin-bottom: 92px;
+}
