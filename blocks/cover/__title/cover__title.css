@@ -5,4 +5,13 @@
     font-weight: 900;
     margin: 0 auto 32px;
     text-align: center;
+    color: #fffdfd;
+}
+
+@media screen and (max-width: 540px) {
+    .cover__title{
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

@@ -4,3 +4,24 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__image{
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .place__image{
+        width: 340px;    
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .place__image{
+        width: 320px;    
+        height: 320px;
+    }
+}
