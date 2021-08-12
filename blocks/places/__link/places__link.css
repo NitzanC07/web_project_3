@@ -1,5 +1,4 @@
-.place__link{
-    height: 22px;
+.places__link{
     margin: 0;
     font-weight: normal;
     font-size: 18px;
@@ -7,7 +6,13 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
-.place__link:hover{
+.places__link:hover{
     opacity: 0.8;
     transition: 0.4s;
+}
+
+@media screen and (max-width: 600px) {
+    .places__link{
+        padding: 0 16px;
+    }    
 }

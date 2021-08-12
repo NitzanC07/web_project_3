@@ -1,7 +1,6 @@
 .lead__caption{
-    width: 984px;
-    margin: 8px 0 0;
-    height: 14px;
+    width: fit-content;
+    margin-top: 8px;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 0.15em;
@@ -9,16 +8,15 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1184px){
+@media screen and (max-width: 860px){
     .lead__caption{
-        width: 928px;
-        margin: 8px auto 0;
+        padding-left: 24px;
     }
 }
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 540px){
     .lead__caption{
-        width: fit-content;
-        margin: 8px 0 0 24px;
+        padding-left: 16px;
+        
     }
 }

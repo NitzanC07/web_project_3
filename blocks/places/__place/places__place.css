@@ -1,20 +1,20 @@
-.place{
-    width: calc(100% - 148px * 2);
+.places__place{
+    width: calc(100% - 48px * 2);
     max-width: 984px;
     margin: 80px auto;
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-gap: 48px 40px;
 }
-.place:first-of-type{
+.places__place:first-of-type{
     margin-top: 92px;
 }
-.place:last-of-type{
+.places__place:last-of-type{
     margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
-    .place{
+    .places__place{
         width: calc(100% - 48px * 2);
         max-width: 928px;
         grid-template-columns: 440px 1fr;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 860px) {
-    .place{
+    .places__place{
         width: calc(100% - 24px * 2);
         max-width: 720px;
         grid-template-columns: 340px 1fr;
@@ -31,10 +31,10 @@
     }    
 }
 
-@media screen and (max-width: 540px) {
-    .place{
+@media screen and (max-width: 600px) {
+    .places__place{
         width: 100%;
-        max-width: 540px;
+        min-width: 320px;
         grid-template-columns: 1fr;
         grid-gap: 32px;
     }

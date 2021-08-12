@@ -1,5 +1,5 @@
 .cover__link{
-    width: 1184px;
+    max-width: 1184px;
     min-height: 740px;
     text-decoration: none;
     color: #fffdfd;
@@ -28,7 +28,8 @@
 
     @media screen and (max-width: 1184px) {
         .cover__link{
-            max-width: 1024px;
+            width: 100%;
+            /* max-width: 1024px; */
             min-height: 640px;
         }
     }
@@ -40,9 +41,10 @@
         }
     }
     
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 630px) {
         .cover__link{
-            max-width: 320px;
+            width: 100%;
+            /* max-width: 320px; */
             min-height: 200px;
         }
     }

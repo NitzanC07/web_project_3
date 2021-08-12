@@ -1,10 +1,10 @@
 .lead{
-    width: calc(100% - 48px * 2);
-    max-width: 984px;
+    width: calc(100% - 148px * 2);
+    /* max-width: 984px; */
     margin: 100px auto 0;
 }
 
-@media screen and (max-width: 1184px){
+@media screen and (max-width: 1148px){
     .lead{
         width: calc(100% - 48px * 2);
     }

@@ -12,11 +12,12 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/inrto__container.css);
+@import url(../blocks/intro/__container/inrto__container.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
@@ -25,23 +26,20 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-@import url(../blocks/places/place/place.css);
-@import url(../blocks/places/place/__two-columns/place__two-columns.css);
-@import url(../blocks/places/place/__first-column/place__first-column.css);
-@import url(../blocks/places/place/__second-column/place__second-column.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__url/place__url.css);
-@import url(../blocks/places/place/__link/place__link.css);
-@import url(../blocks/places/place/__paragraph/place__paragraph.css);
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/places/__url/places__url.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

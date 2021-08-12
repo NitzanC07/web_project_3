@@ -1,17 +1,16 @@
-.lead__image{
+.lead__container{
     width: 100%;
     margin: 0 auto;
-    display: block;
 }
 
 @media screen and (max-width: 860px){
-    .lead__image{
+    .lead__container{
         max-width: 768px;
     }
 }
 
 @media screen and (max-width: 540px){
-    .lead__image{
+    .lead__container{
         min-width: 320px;
     }
 }

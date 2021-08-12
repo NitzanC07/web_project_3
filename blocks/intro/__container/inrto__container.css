@@ -1,19 +1,19 @@
 .intro__container{
-    width: 690px;
-    padding-left: 48px;
+    max-width: 690px;
+    /* padding-left: 48px; */
 }
 
 @media screen and (max-width: 768px) {
     .intro__container{
+        /* width: calc(100% - 24px * 2); */
         max-width: 720px;
-        min-width: 288px;
-        padding: 0 24px;
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 300px) {
     .intro__container{
-        width: 100%;
+        width: calc(100% - 16px * 2);
+        max-width: 720px;
         min-width: 288px;
         padding: 0 24px;
     }
