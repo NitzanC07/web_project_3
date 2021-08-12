@@ -1,11 +1,9 @@
 .intro__container{
     max-width: 690px;
-    /* padding-left: 48px; */
 }
 
 @media screen and (max-width: 768px) {
     .intro__container{
-        /* width: calc(100% - 24px * 2); */
         max-width: 720px;
     }
 }
